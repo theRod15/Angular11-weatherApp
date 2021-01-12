@@ -4,8 +4,11 @@
 
 export const environment = {
   production: false,
+  appId: 'c21770cabaf023a3209138a2437745e6',
+  baseUrl: 'http://',
 }
 
+// http://api.openweathermap.org/data/2.5/weather?q=${cityTextBox.value}&appid=c21770cabaf023a3209138a2437745e6&units=imperial
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
