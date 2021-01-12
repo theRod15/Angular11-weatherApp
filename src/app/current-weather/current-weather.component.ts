@@ -20,11 +20,21 @@ export class CurrentWeatherComponent implements OnInit {
     //   temperature: 72,
     //   description: 'sunny',
     // } as ICurrentWeather
+    //
+    // Null guarding: Strategy 1, Property initialization
+    // this.current = {
+    //   city: '',
+    //   country: '',
+    //   date: 0,
+    //   image: '',
+    //   temperature: 0,
+    //   description: '',
+    // } as ICurrentWeather
   }
 
   ngOnInit(): void {
-    this.weatherService
-      .getCurrentWeather('Cypress', 'US')
-      .subscribe((data) => (this.current = data))
+    // this.weatherService
+    //   .getCurrentWeather('Cypress', 'US')
+    //   .subscribe((data) => (this.current = data))
   }
 }
