@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   appId: 'c21770cabaf023a3209138a2437745e6',
-  baseUrl: 'http://',
+  baseUrl: 'https://',
 }
 
 // http://api.openweathermap.org/data/2.5/weather?q=${cityTextBox.value}&appid=c21770cabaf023a3209138a2437745e6&units=imperial
